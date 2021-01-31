@@ -1,0 +1,18 @@
+name: 'Minify-HTML Action'
+description: 'Github action to minify html'
+
+inputs:
+  src:
+    description: "File to Minify"
+    required: true
+  dist:
+    description: "Path where the minified files will be saved (By default the minified files will be saved in the original file path)"
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: "box"
+  color: "green"
