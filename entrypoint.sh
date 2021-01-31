@@ -2,13 +2,13 @@
 
 npm install -g minify
 
-src = $INPUT_SRC
+src=$INPUT_SRC
 
 if [ -z "$INPUT_DIST" ]
 then
-    dist = src
+    dist=src
 else
-    dist = $INPUT_DIST
+    dist=$INPUT_DIST
 fi
 
 minify $src > $dist
