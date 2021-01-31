@@ -16,4 +16,4 @@ fi
 echo $src
 echo $dist
 
-minify $src > $dist
+minify ${src} | sponge ${dist}
