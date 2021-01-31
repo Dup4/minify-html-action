@@ -11,4 +11,4 @@ else
     dist = $INPUT_DIST
 fi
 
-minify src > dist
+minify $src > $dist

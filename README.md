@@ -1,1 +1,2 @@
 # minify-html-action
+
