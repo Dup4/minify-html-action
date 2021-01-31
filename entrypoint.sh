@@ -1,8 +1,6 @@
 #!/bin/bash
 
 npm install -g minify
-apt-get update
-apt-get -y install moreutils
 
 src=$INPUT_SRC
 
@@ -12,5 +10,8 @@ then
 else
     dist=$INPUT_DIST
 fi
+
+echo $src
+echo $dist
 
 minify $src > $dist
