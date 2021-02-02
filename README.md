@@ -5,7 +5,7 @@
 ```bash
 # Job for Minify HTML
 - name: Minify HTML
-  uses: Dup4/minify-html-action@v7
+  uses: Dup4/minify-html-action@v8
   with:
     src: './index.html' # (OPTIONAL)
     dist: './index.html' # (OPTIONAL)
