@@ -1,6 +1,6 @@
 #!/bin/bash
 
-npm install -g minify@7.0.0
+npm install -g minify@8.0.4
 apt-get update
 apt-get -y install moreutils
 
