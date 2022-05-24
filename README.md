@@ -7,6 +7,6 @@
 - name: Minify HTML
   uses: Dup4/minify-html-action@v1
   with:
-    src: './index.html' # (OPTIONAL)
-    dist: './index.html' # (OPTIONAL)
+    src: './index.html' # required
+    dist: './index.html' # optional
 ```
