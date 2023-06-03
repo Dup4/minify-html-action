@@ -1,8 +1,4 @@
-#!/bin/bash
-
-npm install -g minify@8.0.4
-apt-get update
-apt-get -y install moreutils
+#! /bin/bash
 
 src="${INPUT_SRC}"
 
