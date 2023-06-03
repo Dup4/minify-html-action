@@ -2,7 +2,7 @@
 
 ## Usage
 
-```bash
+```yaml
 # Job for Minify HTML
 - name: Minify HTML
   uses: Dup4/minify-html-action@v1
