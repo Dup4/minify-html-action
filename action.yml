@@ -1,5 +1,5 @@
-name: 'Minify-HTML Action'
-description: 'Github action to minify html'
+name: "Minify-HTML Action"
+description: "Github action to minify html"
 
 inputs:
   src:
@@ -10,8 +10,8 @@ inputs:
     required: false
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"
 
 branding:
   icon: "box"
